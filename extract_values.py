@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 # Define the file path
-file_path = r"/Users/abond/Downloads/hm51116year.csv"
+file_path = r"./hm51116year.csv"
 
 # Function to extract measurement values from METPV-20 normal irradiance
 def extract_measurements(file_path):
@@ -69,7 +69,7 @@ if True:
 # Function to extract measurement values from METPV-20 at various angles
 def extract_measurements(angle):
     # Define the file path
-    directory = f"/Users/abond/Google Drive/Uni/Y4S1/ENGN4524/insolation/{angle}/"
+    directory = f"./{angle}/"
 
     month = {
         "01":[],
